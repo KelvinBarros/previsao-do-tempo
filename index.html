@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="box-central">
+        <input type="text" name="local" id="local" class="local" placeholder="Digite o nome da cidade.">
+        <button class="pesquisa" onclick="pesquisar()">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+        </button>
+        
+        <div class="box-top">
+            <h2 class="cidade">Rio de Janeiro</h2>
+            <p class="temp">32°C</p>
+        </div>
+
+
+        <div class="box-bot">
+            <span class="img-nuvem" >
+                <img class="img-nuvem" src="imagens/nuvens.png" alt="img-nuvem">
+            </span>
+            <p class="text-prev">Nublado</p>
+        </div>
+        <p class="umidade">Umidade: 76%</p>
+    </div>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
