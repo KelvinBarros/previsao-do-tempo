@@ -11,7 +11,7 @@ campoDeEntrada.addEventListener('keyup', function(event) {
         const cidade = campoDeEntrada.value;
         buscarCidade(cidade)
             .then(colocarNaTela)
-            .catch(error => console.error('Erro ao buscar cidade:', error));
+            .catch(error => console.error('Erro ao buscar cidade:', error)); 
     }
 });
 
