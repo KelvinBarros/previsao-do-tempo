@@ -63,6 +63,11 @@ body {
     border-radius: 50%;
 }
 
+.pesquisa:hover{
+    background-color: rgba(0, 0, 0, 0.644);
+    transition: 0.3s;
+}
+
 .material-symbols-outlined {
     height: 20px;
 
@@ -90,13 +95,14 @@ body {
     align-items: center;
 }
 
-.img-nuvem {
+.img-icon {
     height: 55px;
 
 }
 
 .text-prev{
     margin-left: 15px;
+    text-transform: capitalize;/*COLOCA AS PRIMEIRAS LETRAS EM MAIUSCULO*/
 }
 
 .umidade{
