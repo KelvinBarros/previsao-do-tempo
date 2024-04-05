@@ -118,7 +118,7 @@ body {
 }
 
 
-@media (max-width: 786px) {
+@media screen and (max-width: 786px) {
     .box-central{
         width: 90%;
     }
