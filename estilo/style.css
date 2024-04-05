@@ -22,7 +22,7 @@ body {
 .box-central {
     background-color: rgba(0, 0, 0, 0.616);
     color: aliceblue;
-    height: 320px;
+    height: 350px;
     width: 450px;
 
     border-radius: 25px;
@@ -89,10 +89,15 @@ body {
     font-size: 1.2em;
 }
 
+.sensacao{
+    margin-top: 5px;
+}
 
 .box-bot {
+    
     display: flex;
     align-items: center;
+    
 }
 
 .img-icon {
@@ -104,7 +109,10 @@ body {
     margin-left: 15px;
     text-transform: capitalize;/*COLOCA AS PRIMEIRAS LETRAS EM MAIUSCULO*/
 }
-
+.minmax{
+    margin-left: 10px;
+}
 .umidade{
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
 }

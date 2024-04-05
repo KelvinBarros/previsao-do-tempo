@@ -21,10 +21,12 @@ campoDeEntrada.addEventListener('keyup', function(event) {
 function colocarNaTela(dados) {
     console.log(dados);
     document.querySelector(".cidade").innerHTML =  dados.name;
-    document.querySelector(".temp").innerHTML = Math.floor(dados.main.temp) + "°C";
+    document.querySelector(".temp").innerHTML = "Agora: " + Math.floor(dados.main.temp) + "°C";
+    document.querySelector(".sensacao").innerHTML = "Sensação térmica: " + Math.floor(dados.main.feels_like) +  "°C";
     document.querySelector(".text-prev").innerHTML =  dados.weather[0].description;
     document.querySelector(".umidade").innerHTML = `Umidade: ${dados.main.humidity}%`;
     document.querySelector(".img-icon").src = `https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`;
+    document.querySelector(".minmax").innerHTML = `Min: ${Math.floor(dados.main.temp_min)}°C  /  Max: ${Math.floor(dados.main.temp_max)}°C`
 }
 
 
